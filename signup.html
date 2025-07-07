@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Page</title>
+
+    <style>
+     #registerId {
+           margin:50px;
+           padding:50px;
+           border:2px solid #ccc;
+     }
+
+     #register-btn {
+           margin:10px;
+           padding:5px;
+           border-radius : 5px;
+     }
+
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 10px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+border: none;
+          background: #f1f1f1;
+        }
+
+    </style>
+</head>
+<body>
+<div id="registerId">
+    <h2>Registration Form</h2>
+    <form id="login-form">
+        <label>Name</label>
+        <input type="text" id="nameId" placeholder="Enter name">
+        <label>Email</label>
+        <input type="text" id="emailId" placeholder="Enter email">
+        <label>Password</label>
+        <input type="password" id="passwordId" placeholder="Enter password">
+
+        <button onclick="registerBtn(event)" id="register-btn">Register</button>
+    </form>
+</div>
+
+<p id="message"></p>
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
